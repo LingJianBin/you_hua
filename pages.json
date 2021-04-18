@@ -1,0 +1,410 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/null",
+			"style": {
+				"navigationBarTitleText": "起始页",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		// #ifdef APP-PLUS
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"transparentTitle": "auto"
+			}
+		},
+		// #endif
+		// #ifdef H5
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"transparentTitle": "always"
+			}
+		},
+		// #endif
+		{
+			"path": "pages/login/forget",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/home/home_page",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/friend",
+			"style": {
+				"navigationBarTitleText": "人脉",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/home/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/home/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/detail/task_hall",
+			"style": {
+				"navigationBarTitleText": "任务大厅",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/detail/task_detail",
+			"style": {
+				"navigationBarTitleText": "任务详情"
+			}
+		},
+		{
+			"path": "pages/detail/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/my/my_task",
+			"style": {
+				"navigationBarTitleText": "我的任务"
+			}
+		},
+		{
+			"path": "pages/detail/task_manage",
+			"style": {
+				"navigationBarTitleText": "任务管理"
+			}
+		},
+		{
+			"path": "pages/my/my_team",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+		},
+		{
+			"path": "pages/my/active_degree",
+			"style": {
+				"navigationBarTitleText": "贡献值",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+		},
+		{
+			"path": "pages/my/balance",
+			"style": {
+				"navigationBarTitleText": "余额",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+		},
+		{
+			"path": "pages/my/ZY",
+			"style": {
+				"navigationBarTitleText": "YC",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+		},
+		{
+			"path": "pages/my/release_ZY",
+			"style": {
+				"navigationBarTitleText": "释放YC",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+		},
+		{
+			"path": "pages/my/ZYC",
+			"style": {
+				"navigationBarTitleText": "YHTC",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+		},
+		{
+			"path": "pages/VIP/VIP",
+			"style": {
+				"navigationBarTitleText": "会员中心",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#171619"
+			}
+		},
+		{
+			"path": "pages/city_team/city_join",
+			"style": {
+				"navigationBarTitleText": "城市加盟-加入",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/city_team/city_my",
+			"style": {
+				"navigationBarTitleText": "城市加盟-我的",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/detail/complaint",
+			"style": {
+				"navigationBarTitleText": "投诉"
+			}
+		},
+		{
+			"path": "pages/detail/friend_detail",
+			"style": {
+				"navigationBarTitleText": "好友详情"
+			}
+		},
+		{
+			"path": "pages/detail/friend_request",
+			"style": {
+				"navigationBarTitleText": "好友请求"
+			}
+		},
+		{
+			"path": "pages/detail/mining",
+			"style": {
+				"navigationBarTitleText": "挖矿",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/detail/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},
+		{
+			"path": "pages/detail/release_task",
+			"style": {
+				"navigationBarTitleText": "发布任务"
+			}
+		},
+		{
+			"path": "pages/detail/submit_task_order",
+			"style": {
+				"navigationBarTitleText": "提交任务订单"
+			}
+		},
+		{
+			"path": "pages/setting/nickname",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "pages/me/friend",
+			"style": {
+				"navigationBarTitleText": "邀请好友",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/me/gongpai_code",
+			"style": {
+				"navigationBarTitleText": "公排码",
+				"transparentTitle": "auto"
+			}
+		},
+		{
+			"path": "pages/me/notice",
+			"style": {
+				"navigationBarTitleText": "公告"
+			}
+		},
+		{
+			"path": "pages/setting/information",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "pages/detail/task_manage_list",
+			"style": {
+				"navigationBarTitleText": "管理任务列表"
+			}
+		},
+		{
+			"path": "pages/detail/task_manage_list_detail",
+			"style": {
+				"navigationBarTitleText": "页面详情"
+			}
+		},
+		{
+			"path": "pages/my/task_package",
+			"style": {
+				"navigationBarTitleText": "升职大厅"
+			}
+		},
+		{
+			"path": "pages/my/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/my/user_info",
+			"style": {
+				"navigationBarTitleText": "我的信息"
+			}
+		},
+		{
+			"path": "pages/my/next_my_team",
+			"style": {
+				"navigationBarTitleText": "升级达人",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+		},
+		{
+			"path": "pages/setting/setPwd",
+			"style": {
+				"navigationBarTitleText": "修改登录密码"
+			}
+		},
+		{
+			"path": "pages/setting/setpwd2",
+			"style": {
+				"navigationBarTitleText": "修改赠送密码"
+			}
+		},
+		{
+			"path": "pages/my/myFriends",
+			"style": {
+				"navigationBarTitleText": "我的职友",
+				"enablePullDownRefresh": false,
+				"mp-weixin": {
+					"disableScroll": true
+				},
+				"app-plus": {
+					"bounce": "none"
+				},
+				"mp-alipay": {
+					"allowsBounceVertical": "NO"
+				},
+				"mp-baidu": {
+					"disableScroll": true
+				}
+			}
+		},
+		{
+			"path": "pages/setting/exchange",
+			"style": {
+				"navigationBarTitleText": "账户信息"
+			}
+		},
+		{
+			"path": "pages/me/college",
+			"style": {
+				"navigationBarTitleText": "新人指南"
+			}
+		},
+		{
+			"path": "pages/setting/school",
+			"style": {
+				"navigationBarTitleText": "新人指南详情"
+			}
+		},
+		{
+			"path": "pages/me/contacts",
+			"style": {
+				"navigationBarTitleText": "人脉置顶",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#4B7EFE"
+			}
+
+		},
+		{
+			"path": "pages/my/real_name",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		},
+		{
+			"path": "pages/me/authentication",
+			"style": {
+				"navigationBarTitleText": "实名认证"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "友话职说",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333",
+		"selectedColor": "#4B7EFE",
+		"backgroundColor": "#FFF",
+		"borderStyle": "white",
+		"list": [{
+			"pagePath": "pages/home/home_page",
+			"text": "首页",
+			"iconPath": "/static/tabbar/icon6.png",
+			"selectedIconPath": "/static/tabbar/icon1.png"
+		}, {
+			"pagePath": "pages/home/friend",
+			"text": "人脉",
+			"iconPath": "/static/tabbar/icon7.png",
+			"selectedIconPath": "/static/tabbar/icon2.png"
+		}, {
+			"pagePath": "pages/home/message",
+			"text": "消息",
+			"iconPath": "/static/tabbar/icon9.png",
+			"selectedIconPath": "/static/tabbar/icon4.png"
+		}, {
+			"pagePath": "pages/home/my",
+			"text": "我的",
+			"iconPath": "/static/tabbar/icon10.png",
+			"selectedIconPath": "/static/tabbar/icon5.png"
+		}]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

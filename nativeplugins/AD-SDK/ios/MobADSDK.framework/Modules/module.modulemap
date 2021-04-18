@@ -1,0 +1,6 @@
+framework module MobADSDK {
+  umbrella header "MobADSDK.h"
+
+  export *
+  module * { export * }
+}
